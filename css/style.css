@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Oswald:wght@200;400;700&display=swap');
+
+/* font-family: 'Balsamiq Sans', cursive; */
+/* font-family: 'Oswald', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+    background-color: #444;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.container-app{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.pokemon-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.pokemon-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: aqua 1px solid;
+    border-radius: 1rem;
+}
+.number-pokemon{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+/* .pokemon-block>p{
+font-weight: ;
+} */
+
+.img-container{
+    background-image: url("/svg/bg-img.svg");
+}
+
+#spinner{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+}
